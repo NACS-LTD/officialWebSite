@@ -1,0 +1,201 @@
+body {
+  font-family: serif;
+  background-color: 	whitesmoke;
+  font-family:;
+  font-size:16px;
+  
+
+}
+
+/*navigation bar*/
+
+
+header  {
+
+  float: right;
+  height: 5px;
+  
+}
+
+
+.topdiv {
+  float: left;
+  padding-right: 1cm;
+  background-color: #171515;
+  
+}
+
+#home {
+  background-color:  black;
+  padding-bottom: 1cm;
+  margin-left:-1cm;
+  margin-right:-1cm;
+  margin-top:-1cm;
+  padding-top: 1.5cm;
+  padding-bottom: 1cm;
+  
+ }
+
+form {
+  padding: 1em;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+button {
+  background-color: #000;
+  color: #fff;
+  padding: 0.5em;
+  margin-bottom: 1em;
+}
+
+footer {
+  text-align: left;
+  font-size: 13px;
+  color:white;
+  padding: -1em;
+  padding-left: 1em;
+  background-color:black;
+  
+}
+
+
+/* unvisited link */
+p a:link {
+  color: #0000FF;
+}
+
+/* visited link */
+p a:visited {
+  color: #3b3b3b;
+}
+
+/* mouse over link */
+p a:hover {
+  color: #00ccff;
+}
+
+/* selected link */
+p a:active {
+  color: #0000FF;
+}
+
+ /*
+.topmenu {
+ color: lightgray;
+  margin: 5px;
+  padding: 10px;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  font-size: 1em;
+}
+
+section {
+  padding: 1em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  padding: 0 1em;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 1em;
+}
+
+*/
+
+
+
+
+}
+
+.image-container{
+    position: relative;
+    width: 80%;
+  
+}
+
+img{
+    
+    position: center;
+    width: 80%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.active{
+    display: block;
+}
+
+.dot-container{
+    width: 150px;
+    margin: 20px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button{
+    outline: none;
+    cursor: pointer;
+}
+.dot-container button{
+    height: 13px;
+    width: 13px;
+    border-radius: 50%;
+    border: 3px solid #BLACK;
+    background-color: transparent;
+}
+
+.dot-container button:nth-child(1){
+    background-color: dodgerblue;
+}
+
+#prev,#next{
+    height: 40px;
+    width: 40px;
+    position: class="active";
+    background-color: #dodgerblue;
+    color: #ffffff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    border: none;
+    border-radius: 3px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+#prev{
+    left: 15px;
+}
+#next{
+    right: 15px;
+}
